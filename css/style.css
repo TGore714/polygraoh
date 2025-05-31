@@ -283,35 +283,33 @@ footer {
 
 /* about page */
 .about-page {
-  background-color: #001f3f; /* navy blue */
+  background-color: #001f3f; /* Navy */
   color: white;
   font-family: 'Playfair Display', serif;
-  padding-top: 140px; /* to offset fixed header */
+  padding-top: 140px; /* space for fixed header */
 }
 
 .about-content {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
   gap: 40px;
+  justify-content: space-between;
+  align-items: flex-start;
   padding: 40px 20px;
   flex-wrap: wrap;
 }
 
 .about-text {
   flex: 1 1 55%;
-  max-width: 600px;
+  max-width: 700px;
 }
 
 .about-text h1 {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   margin-bottom: 20px;
-  color: #ffffff;
 }
 
 .about-text p {
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   margin-bottom: 20px;
   line-height: 1.6;
 }
@@ -324,18 +322,33 @@ footer {
 .about-photo img {
   width: 100%;
   border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
 }
 
-/* Responsive */
+/* Responsive adjustments */
 @media (max-width: 768px) {
   .about-content {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding: 20px;
+  }
+
+  .about-text {
+    max-width: 100%;
+  }
+
+  .about-text h1 {
+    font-size: 1.8rem;
+  }
+
+  .about-text p {
+    font-size: 1rem;
   }
 
   .about-photo {
+    max-width: 90%;
     margin-top: 20px;
   }
 }
+
