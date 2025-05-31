@@ -281,3 +281,61 @@ footer {
   transform: rotate(-45deg) translate(6px, -6px);
 }
 
+/* about page */
+.about-page {
+  background-color: #001f3f; /* navy blue */
+  color: white;
+  font-family: 'Playfair Display', serif;
+  padding-top: 140px; /* to offset fixed header */
+}
+
+.about-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  flex: 1 1 55%;
+  max-width: 600px;
+}
+
+.about-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.about-text p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.about-photo {
+  flex: 1 1 35%;
+  max-width: 400px;
+}
+
+.about-photo img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-photo {
+    margin-top: 20px;
+  }
+}
