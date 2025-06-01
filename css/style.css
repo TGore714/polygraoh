@@ -242,7 +242,7 @@ footer {
   flex-direction: column;
   justify-content: space-between;
   width: 30px;
-  height: 22px;
+  height: 40px;
   background: none;
   border: none;
   cursor: pointer;
@@ -254,7 +254,7 @@ footer {
 
 .hamburger span {
   display: block;
-  height: 3px;
+  height: 30px;
   width: 100%;
   background-color: white;
   border-radius: 2px;
@@ -278,8 +278,9 @@ footer {
 }
 
 .hamburger.active span:nth-child(3) {
-  transform: rotate(-45deg) translate(6px, -6px);
+  transform: rotate(-45deg) translate(5px, -5px);
 }
+
 
 /* about page */
 .about-page {
@@ -457,7 +458,7 @@ main.services-content {
   }
 
   .hamburger span {
-    width: 22px;
+    width: 25px;
   }
 
   .logo {
@@ -474,7 +475,7 @@ body.services-page {
   padding-top: 140px; /* so header doesn’t overlap content */
   font-family: 'Playfair Display', serif;
   color: white;
-  background-color: #000d1a;
+  background-color: #001f3f;
   min-height: 100vh;
 }
 
@@ -526,25 +527,6 @@ body.services-page {
     padding: 0 20px;
   }
 
-  .nav-links {
-    position: fixed;
-    top: 70px; /* adjust based on header height */
-    left: 0;
-    width: 100%;
-    flex-direction: column;
-    background-color: #001f3f;
-    display: none;
-    padding: 20px 0;
-  }
-
-  .nav-links.active {
-    display: flex;
-  }
-
-  .nav-links a {
-    padding: 10px 0;
-    text-align: center;
-  }
 
   .hamburger {
     display: block;
@@ -573,18 +555,18 @@ body.services-page {
   }
 }
 
-@media (max-width: 480px) {
-  .logo {
-    width: 150px;
-  }
-
-  .page-title {
-    font-size: 1.5rem;
-  }
-}
-
 .about-page,
 .services-page,
 .policy-page {
   background-color: #001f3f;
+}
+
+.hamburger span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+  margin: 5px 0;  /* Add vertical spacing between lines */
 }
