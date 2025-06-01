@@ -306,6 +306,7 @@ footer {
 .about-text h1 {
   font-size: 2.2rem;
   margin-bottom: 20px;
+  color: #e7f300;
 }
 
 .about-text p {
@@ -356,8 +357,11 @@ footer {
   }
 
   .about-photo {
-    max-width: 90%;
-    margin-top: 20px;
+    margin-top: -15px;
+  }
+
+  .about-box {
+    margin-bottom: 20px;
   }
 }
 
