@@ -228,11 +228,10 @@ footer {
   }
 
   .logo {
-    height: 240px;
-    margin-top: -55px; /* this moves it up */
-    margin-bottom: 10px;
-  }
-
+  height: 240px;
+  width: auto;
+  user-select: none;
+}
 }
 
 
