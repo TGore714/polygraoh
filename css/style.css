@@ -352,3 +352,156 @@ footer {
   }
 }
 
+/* General Services Page Styling */
+.services-page {
+  background-color: #001f3f;
+  color: white;
+  font-family: 'Playfair Display', serif;
+  padding-top: 100px;
+}
+
+.services-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.services-content h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #e7f300;
+}
+
+.services-content h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  color: #e7f300;
+}
+
+.services-content p,
+.services-content li {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.services-content ul {
+  padding-left: 20px;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Service section spacing */
+.service {
+  margin-bottom: 2.5rem;
+}
+
+/* Image Styling (in case you add any) */
+.services-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px 0;
+}
+
+main.services-content {
+  padding-top: 130px; /* Adjust based on your header height */
+}
+
+
+/* Responsive Navigation & Typography */
+@media screen and (max-width: 768px) {
+  .services-content {
+    padding: 0 15px;
+  }
+
+  .services-content h1 {
+    font-size: 1.7rem;
+  }
+
+  .services-content h2 {
+    font-size: 1.3rem;
+  }
+
+  .services-content p,
+  .services-content li {
+    font-size: 0.95rem;
+  }
+}
+
+/* Extra small devices */
+@media screen and (max-width: 480px) {
+  .services-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .services-content h2 {
+    font-size: 1.15rem;
+  }
+
+  .services-content p,
+  .services-content li {
+    font-size: 0.9rem;
+  }
+
+  .hamburger span {
+    width: 22px;
+  }
+
+  .logo {
+    max-width: 140px;
+  }
+}
+
+body.services-page {
+  font-family: 'Playfair Display', serif;
+}
+
+/* General Page Adjustments */
+.services-page main {
+  padding-top: 140px; /* so header doesn’t overlap content */
+  font-family: 'Playfair Display', serif;
+  color: white;
+  background-color: #000d1a;
+  min-height: 100vh;
+}
+
+/* Box Styling for Sections */
+.service-box {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  padding: 25px;
+  margin-bottom: 30px;
+  transition: transform 0.3s ease;
+}
+
+.service-box:hover {
+  transform: translateY(-4px);
+}
+
+/* Headings and Yellow Accent */
+.service-box h2,
+.service-box h3 {
+  color: #ffcc00;
+  margin-bottom: 15px;
+}
+
+.service-box ul {
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
+.service-box ul li {
+  list-style-type: disc;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .services-page main {
+    padding: 120px 20px 40px;
+  }
+
+  .service-box {
+    padding: 20px;
+  }
+}
