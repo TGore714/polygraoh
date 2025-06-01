@@ -569,3 +569,9 @@ body.services-page {
     font-size: 1.5rem;
   }
 }
+
+.about-page,
+.services-page,
+.policy-page {
+  background-color: #001f3f;
+}
