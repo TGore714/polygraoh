@@ -566,3 +566,45 @@ body.services-page {
   transition: all 0.3s ease;
   margin: 5px 0;  /* Add vertical spacing between lines */
 }
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  color: #aaa;
+  position: relative;
+  z-index: 10;
+}
+
+footer a {
+  color: #e7f300;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 0.95rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Responsive adjustment */
+@media (max-width: 600px) {
+  .footer-container {
+    font-size: 0.9rem;
+  }
+
+  .footer-container p {
+    margin: 5px 0;
+    text-align: center;
+  }
+}
