@@ -228,10 +228,10 @@ footer {
   }
 
   .logo {
-  height: 240px;
-  width: auto;
-  user-select: none;
-}
+    height: 240px;
+    margin-top: -20px; /* was -55px */
+    margin-bottom: 0;  /* optional: tighten the spacing below */
+  }
 }
 
 
