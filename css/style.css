@@ -223,7 +223,8 @@ footer {
   header .container {
     flex-direction: column;
     align-items: center;
-    padding-top: -10px; /* adds some vertical buffer */ 
+    padding: 0;
+    margin: 0;
   }
 
   .logo {
