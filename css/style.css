@@ -505,3 +505,67 @@ body.services-page {
     padding: 20px;
   }
 }
+
+/* Mobile-friendly responsiveness */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+
+  .nav-links {
+    position: fixed;
+    top: 70px; /* adjust based on header height */
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    background-color: #001f3f;
+    display: none;
+    padding: 20px 0;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links a {
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .about-content,
+  .services-content {
+    flex-direction: column;
+    padding-top: 100px; /* push content down below header */
+  }
+
+  .about-photo img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .service-box {
+    margin: 20px 0;
+    padding: 20px;
+  }
+
+  .page-title {
+    font-size: 1.8rem;
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    width: 150px;
+  }
+
+  .page-title {
+    font-size: 1.5rem;
+  }
+}
