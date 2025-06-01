@@ -228,7 +228,7 @@ footer {
 
   .logo {
     height: 240px;
-    margin-top: 20px; /* was -55px */
+    margin-top: -60px; /* was -55px */
     margin-bottom: 0;  /* optional: tighten the spacing below */
   }
 }
