@@ -234,6 +234,9 @@ footer {
   }
 }
 
+.home-page .hamburger span {
+  background-color: black;
+}
 
 /* HAMBURGER BUTTON BASE STYLES */
 .hamburger {
