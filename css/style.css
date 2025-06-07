@@ -23,7 +23,7 @@ body {
 /* Header */
 header {
   height: 120px; /* set a fixed header height */
-  background: rgba(0, 0, 128, 0.8);
+  background: rgba(60, 60, 60, 0.9); /* smoky gray */
   position: fixed;
   top: 0; left: 0; right: 0;
   z-index: 1000;
