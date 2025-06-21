@@ -714,3 +714,20 @@ footer a:hover {
     width: 100%;
   }
 }
+
+.pricing-button {
+  display: inline-block;
+  background-color: #e7f300;
+  color: #001f3f;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.pricing-button:hover {
+  background-color: #fff200;
+  color: #000;
+}
