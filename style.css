@@ -303,7 +303,3 @@ footer {
   height: 100%;
   display: block;
 }
-
-.wave-line {
-  animation: wave 1s linear forwards;
-}
