@@ -30,26 +30,31 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Polygraph line animation function
   function drawPolygraph(callback) {
-    let x = 0;
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-    ctx.strokeStyle = '#e7f300'; // same yellow as your theme
-    ctx.lineWidth = 2;
-    ctx.beginPath();
-    ctx.moveTo(0, canvas.height / 2);
+  let x = 0;
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  ctx.strokeStyle = '#e7f300';
+  ctx.lineWidth = 2;
+  ctx.beginPath();
+  ctx.moveTo(0, canvas.height / 2);
 
-    let animation = setInterval(() => {
-      const y = canvas.height / 2 + Math.sin(x * 0.05) * 40;
-      ctx.lineTo(x, y);
-      ctx.stroke();
+  // 👇 Adjust speed based on screen size
+  const isMobile = window.innerWidth <= 768;
+  const speed = isMobile ? 6 : 14;        // How far x moves each frame
+  const interval = isMobile ? 10 : 4;     // How fast each frame runs (ms)
 
-      x += 4;
+  const animation = setInterval(() => {
+    const y = canvas.height / 2 + Math.sin(x * 0.05) * 40;
+    ctx.lineTo(x, y);
+    ctx.stroke();
 
-      if (x > canvas.width) {
-        clearInterval(animation);
-        callback();
-      }
-    }, 10);
-  }
+    x += speed;
+
+    if (x > canvas.width) {
+      clearInterval(animation);
+      callback();
+    }
+  }, interval);
+}
 
   function handleClick(e) {
     const link = e.currentTarget;
