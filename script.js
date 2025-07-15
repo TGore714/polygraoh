@@ -18,18 +18,4 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-// transition effect
-document.addEventListener("DOMContentLoaded", function () {
-  const overlay = document.getElementById("transition-overlay");
-  const canvas = document.getElementById("polygraph-canvas");
-  const ctx = canvas.getContext("2d");
 
-  // Set canvas full screen
-  canvas.width = window.innerWidth;
-  canvas.height = window.innerHeight;
-
-  // Target all nav links and pricing buttons
-  document.querySelectorAll("a[href]").forEach(link => {
-    link.addEventListener("click", handleClick);
-  });
-});
