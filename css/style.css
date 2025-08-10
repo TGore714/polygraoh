@@ -797,64 +797,44 @@ footer a:hover {
   background-color: transparent; /* or whatever fits */
 }
 
+/* Responsive adjustments */
+
+/* Medium devices (tablets) */
 @media (max-width: 768px) {
   .blog-page .posts {
-    padding-top: 100px; /* less padding on smaller screens */
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 1rem 1.5rem;
+    padding-top: 120px;
+  }
+  
+  .blog-page .post-card {
+    padding: 1rem;
+  }
+  
+  .blog-page .post-card h2 {
+    font-size: 1.3rem;
   }
 }
 
-.blog-page .post-card {
-  background-color: #00004d;
-  border-radius: 10px;
-  padding: 1.5rem;
-  margin-bottom: 1.5rem;
-  border: 1px solid #333366;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
-  transition: box-shadow 0.3s ease;
+/* Small devices (phones) */
+@media (max-width: 480px) {
+  .blog-page .posts {
+    padding: 1rem;
+    padding-top: 100px;
+  }
+  
+  .blog-page .post-card {
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .blog-page .post-card h2 {
+    font-size: 1.1rem;
+  }
+  
+  .blog-page .read-more {
+    font-size: 0.9rem;
+  }
 }
-
-.blog-page .post-card:hover {
-  box-shadow: 0 0 16px #32CD32;
-}
-
-.blog-page .post-card h2 {
-  font-family: 'Playfair Display', serif;
-  font-weight: 700;
-  font-size: 1.5rem;
-  color: #32CD32;
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-}
-
-.blog-page .post-card .post-date {
-  font-size: 0.9rem;
-  color: #cccccc;
-  margin-bottom: 1rem;
-}
-
-.blog-page .read-more {
-  color: #32CD32;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.blog-page .read-more:hover {
-  text-decoration: underline;
-}
-
-.blog-page {
-  background-color: #001f3f; /* fixed typo here */
-  color: #f0f0f0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
-}
-
-.blog-page main {
-  background-color: transparent;
-}
-
 
 
 
