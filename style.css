@@ -292,6 +292,7 @@ footer {
   max-width: 900px;
   margin: 0 auto;
   padding: 1.5rem;
+  padding-top: 300px;
 }
 
 .blog-page .post-card {
@@ -344,6 +345,7 @@ footer {
 .blog-page main {
   background-color: transparent; /* or whatever fits */
 }
+
 
 
 
