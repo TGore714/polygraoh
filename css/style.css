@@ -756,14 +756,14 @@ footer a:hover {
 }
 
 .blog-page .post-card:hover {
-  box-shadow: 0 0 16px #32CD32;
+  box-shadow: 0 0 16px #e7f300;
 }
 
 .blog-page .post-card h2 {
   font-family: 'Playfair Display', serif;
   font-weight: 700;
   font-size: 1.5rem;
-  color: #32CD32;
+  color: #e7f300;
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
@@ -775,7 +775,7 @@ footer a:hover {
 }
 
 .blog-page .read-more {
-  color: #32CD32;
+  color: #e7f300;
   font-weight: 600;
   text-decoration: none;
 }
@@ -798,7 +798,7 @@ footer a:hover {
 }
 
 .blog-page .post-card h2 a {
-  color: #e7f300; /* Lime green accent, matching your other green accents */
+  color: #e7f300; 
   text-decoration: none;
 }
 
@@ -860,6 +860,7 @@ footer a:hover {
     font-size: 0.9rem;
   }
 }
+
 
 
 
