@@ -292,7 +292,6 @@ footer {
   max-width: 900px;
   margin: 0 auto;
   padding: 1.5rem;
-  padding-top: 450px;
 }
 
 .blog-page .post-card {
@@ -340,6 +339,7 @@ footer {
   color: #f0f0f0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
+  padding-top: 200px;
 }
 
 .blog-page main {
@@ -403,6 +403,7 @@ footer {
 .blog-page main {
   background-color: transparent;
 }
+
 
 
 
