@@ -289,46 +289,48 @@ footer {
 }
 
 .posts {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1.5rem;
 }
 
 .post-card {
-  background: #fff;
+  background-color: transparent; /* let page background show */
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid rgba(64, 64, 64, 0.8); /* subtle border to separate posts */
+  box-shadow: none; /* remove white shadows */
   transition: box-shadow 0.3s ease;
 }
 
 .post-card:hover {
-  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  box-shadow: 0 0 12px #32CD32; /* lime green glow on hover */
 }
 
 .post-card h2 {
-  margin-top: 0;
   font-family: 'Playfair Display', serif;
   font-weight: 700;
   font-size: 1.5rem;
   color: #32CD32; /* lime green accent */
+  margin-top: 0;
+  margin-bottom: 0.5rem;
 }
 
 .post-card .post-date {
   font-size: 0.9rem;
-  color: #666;
+  color: #cccccc; /* lighter text */
   margin-bottom: 1rem;
 }
 
 .read-more {
-  display: inline-block;
-  margin-top: 0.5rem;
-  color: #32CD32;
-  text-decoration: none;
+  color: #32CD32; /* lime green */
   font-weight: 600;
+  text-decoration: none;
 }
 
 .read-more:hover {
   text-decoration: underline;
 }
+
 
