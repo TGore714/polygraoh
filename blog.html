@@ -42,7 +42,7 @@ title: Blog
     <a href="contact.html" class="pricing-button">Contact for Pricing</a>
     <div class="posts">
       {% for post in site.posts %}
-      <article class="post-card service-box">
+      <article class="service-box">
         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
         <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
         <p>{{ post.excerpt | strip_html | truncate: 150 }}</p>
@@ -64,6 +64,7 @@ title: Blog
 
 </body>
 </html>
+
 
 
 
