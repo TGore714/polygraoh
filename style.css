@@ -293,6 +293,7 @@ footer {
   margin: 0 auto;
   padding: 1.5rem;
   background-color: rgba(0, 0, 128, 0.8);
+  padding-top: 140px;
 }
 
 .post-card {
@@ -333,6 +334,7 @@ footer {
 .read-more:hover {
   text-decoration: underline;
 }
+
 
 
 
