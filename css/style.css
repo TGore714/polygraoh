@@ -743,10 +743,12 @@ footer a:hover {
   max-width: 900px;
   margin: 0 auto;
   padding: 1.5rem;
+  background-color: rgba(0, 0, 128, 0.8);
+  padding-top: 140px;
 }
 
 .post-card {
-  background-color: transparent; /* let page background show */
+  background-color: #00004d; 
   border-radius: 10px;
   padding: 1.5rem;
   margin-bottom: 1.5rem;
@@ -756,7 +758,7 @@ footer a:hover {
 }
 
 .post-card:hover {
-  box-shadow: 0 0 12px #32CD32; /* lime green glow on hover */
+  box-shadow: 0 0 12px #027e9e; 
 }
 
 .post-card h2 {
