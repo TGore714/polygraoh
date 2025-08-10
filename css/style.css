@@ -9,7 +9,7 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #f0f0f0;
-  background-color: #000;
+  background-color: #001f3f;
   line-height: 1.6;
 }
 
@@ -785,5 +785,6 @@ footer a:hover {
 .read-more:hover {
   text-decoration: underline;
 }
+
 
 
