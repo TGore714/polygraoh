@@ -351,13 +351,18 @@ footer {
 /* Medium devices (tablets) */
 @media (max-width: 768px) {
   .blog-page .posts {
-    padding: 1rem 1.5rem;
-    padding-top: 120px;
+    width: 100% !important;       /* full width of screen */
+    max-width: 100% !important;   /* no max width to restrict */
+    box-sizing: border-box;       /* include padding in width */
+    overflow-x: hidden;           /* prevent horizontal scroll */
   }
-  
+
   .blog-page .post-card {
-    padding: 1rem;
+    width: 100% !important;       /* full width inside container */
+    max-width: 100% !important;
+    box-sizing: border-box;
   }
+}
   
   .blog-page .post-card h2 {
     font-size: 1.3rem;
@@ -366,15 +371,19 @@ footer {
 
 /* Small devices (phones) */
 @media (max-width: 480px) {
-  .blog-page .posts {
-    padding: 1rem;
-    padding-top: 100px;
+.blog-page .posts {
+    width: 100% !important;       /* full width of screen */
+    max-width: 100% !important;   /* no max width to restrict */
+    box-sizing: border-box;       /* include padding in width */
+    overflow-x: hidden;           /* prevent horizontal scroll */
   }
-  
+
   .blog-page .post-card {
-    padding: 0.8rem;
-    margin-bottom: 1rem;
+    width: 100% !important;       /* full width inside container */
+    max-width: 100% !important;
+    box-sizing: border-box;
   }
+}
   
   .blog-page .post-card h2 {
     font-size: 1.1rem;
@@ -384,6 +393,7 @@ footer {
     font-size: 0.9rem;
   }
 }
+
 
 
 
