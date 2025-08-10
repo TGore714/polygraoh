@@ -292,10 +292,11 @@ footer {
   max-width: 900px;
   margin: 0 auto;
   padding: 1.5rem;
+  background-color: rgba(0, 0, 128, 0.8);
 }
 
 .post-card {
-  background-color: transparent; /* let page background show */
+  background-color: #00004d; 
   border-radius: 10px;
   padding: 1.5rem;
   margin-bottom: 1.5rem;
@@ -332,5 +333,6 @@ footer {
 .read-more:hover {
   text-decoration: underline;
 }
+
 
 
