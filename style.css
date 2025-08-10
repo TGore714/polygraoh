@@ -306,7 +306,7 @@ footer {
 }
 
 .post-card:hover {
-  box-shadow: 0 0 12px #32CD32; /* lime green glow on hover */
+  box-shadow: 0 0 12px #027e9e; 
 }
 
 .post-card h2 {
@@ -333,6 +333,7 @@ footer {
 .read-more:hover {
   text-decoration: underline;
 }
+
 
 
 
