@@ -305,14 +305,14 @@ footer {
 }
 
 .blog-page .post-card:hover {
-  box-shadow: 0 0 16px #32CD32;
+  box-shadow: 0 0 16px #e7f300;
 }
 
 .blog-page .post-card h2 {
   font-family: 'Playfair Display', serif;
   font-weight: 700;
   font-size: 1.5rem;
-  color: #32CD32;
+  color: #e7f300;
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
@@ -324,7 +324,7 @@ footer {
 }
 
 .blog-page .read-more {
-  color: #32CD32;
+  color: #e7f300;
   font-weight: 600;
   text-decoration: none;
 }
@@ -346,21 +346,35 @@ footer {
   background-color: transparent; /* or whatever fits */
 }
 
+.blog-page .post-card h2 a {
+  color: #e7f300; 
+  text-decoration: none;
+}
+
+.blog-page .post-card h2 a:hover {
+  text-decoration: underline;
+}
+
+
 /* Responsive adjustments */
 
 /* Medium devices (tablets) */
 @media (max-width: 768px) {
-  .blog-page .posts {
+.blog-page .posts {
     width: 100% !important;       /* full width of screen */
     max-width: 100% !important;   /* no max width to restrict */
     box-sizing: border-box;       /* include padding in width */
-    overflow-x: hidden;           /* prevent horizontal scroll */
+    overflow-x: hidden;    /* prevent horizontal scroll */
+    padding: 1.5rem 1rem;    /* more horizontal breathing room */
+    margin-bottom: 1.5rem;   /* prevent horizontal scroll */
   }
 
   .blog-page .post-card {
     width: 100% !important;       /* full width inside container */
     max-width: 100% !important;
     box-sizing: border-box;
+    margin-bottom: 1rem;
+    line-height: 1.5;
   }
   
   .blog-page .post-card h2 {
@@ -370,19 +384,22 @@ footer {
 
 /* Small devices (phones) */
 @media (max-width: 480px) {
-.blog-page .posts {
+ .blog-page .posts {
     width: 100% !important;       /* full width of screen */
     max-width: 100% !important;   /* no max width to restrict */
     box-sizing: border-box;       /* include padding in width */
-    overflow-x: hidden;           /* prevent horizontal scroll */
+    overflow-x: hidden;  
+    padding: 1.5rem 1rem;    /* more horizontal breathing room */
+    margin-bottom: 1.5rem;    /* prevent horizontal scroll */
   }
 
   .blog-page .post-card {
     width: 100% !important;       /* full width inside container */
     max-width: 100% !important;
     box-sizing: border-box;
+    margin-bottom: 1rem;
+    line-height: 1.5;
   }
-}
   
   .blog-page .post-card h2 {
     font-size: 1.1rem;
@@ -392,6 +409,7 @@ footer {
     font-size: 0.9rem;
   }
 }
+
 
 
 
