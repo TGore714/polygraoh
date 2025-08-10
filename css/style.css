@@ -797,6 +797,16 @@ footer a:hover {
   background-color: transparent; /* or whatever fits */
 }
 
+.blog-page .post-card h2 a {
+  color: #e7f300; /* Lime green accent, matching your other green accents */
+  text-decoration: none;
+}
+
+.blog-page .post-card h2 a:hover {
+  text-decoration: underline;
+}
+
+
 /* Responsive adjustments */
 
 /* Medium devices (tablets) */
@@ -805,13 +815,17 @@ footer a:hover {
     width: 100% !important;       /* full width of screen */
     max-width: 100% !important;   /* no max width to restrict */
     box-sizing: border-box;       /* include padding in width */
-    overflow-x: hidden;           /* prevent horizontal scroll */
+    overflow-x: hidden;    /* prevent horizontal scroll */
+    padding: 1.5rem 1rem;    /* more horizontal breathing room */
+    margin-bottom: 1.5rem;   /* prevent horizontal scroll */
   }
 
   .blog-page .post-card {
     width: 100% !important;       /* full width inside container */
     max-width: 100% !important;
     box-sizing: border-box;
+    margin-bottom: 1rem;
+    line-height: 1.5;
   }
   
   .blog-page .post-card h2 {
@@ -825,13 +839,17 @@ footer a:hover {
     width: 100% !important;       /* full width of screen */
     max-width: 100% !important;   /* no max width to restrict */
     box-sizing: border-box;       /* include padding in width */
-    overflow-x: hidden;           /* prevent horizontal scroll */
+    overflow-x: hidden;  
+    padding: 1.5rem 1rem;    /* more horizontal breathing room */
+    margin-bottom: 1.5rem;    /* prevent horizontal scroll */
   }
 
   .blog-page .post-card {
     width: 100% !important;       /* full width inside container */
     max-width: 100% !important;
     box-sizing: border-box;
+    margin-bottom: 1rem;
+    line-height: 1.5;
   }
   
   .blog-page .post-card h2 {
@@ -842,6 +860,7 @@ footer a:hover {
     font-size: 0.9rem;
   }
 }
+
 
 
 
