@@ -288,7 +288,19 @@ footer {
   padding: 1rem;
 }
 
+footer a img {
+  width: 40px; /* make it larger */
+  height: 40px;
+}
 
+footer a {
+  display: inline-block;
+  margin-left: 10px; /* give some breathing room from the edge */
+}
+
+footer {
+  text-align: center; /* centers all footer content */
+}
 
 
 
