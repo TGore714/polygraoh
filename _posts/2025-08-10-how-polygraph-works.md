@@ -2,7 +2,6 @@
 layout: null
 title: "How a Polygraph Works"
 date: 2025-08-10
-permalink: /blog/how-a-polygraph-works.html
 ---
 
 A polygraph, often called a "lie detector," is a device used to help determine if someone is telling the truth. It doesn’t actually detect lies directly, but instead measures how your body reacts when you answer questions.
