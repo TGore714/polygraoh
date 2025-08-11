@@ -763,7 +763,7 @@ footer {
 }
 
 /* Mobile adjustments */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   footer .facebook-link img {
     width: 35px;
     height: 35px;
