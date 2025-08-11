@@ -302,6 +302,13 @@ footer {
   text-align: center; /* centers all footer content */
 }
 
+/* Mobile adjustments */
+@media (max-width: 600px) {
+  footer .facebook-link img {
+    width: 35px;
+    height: 35px;
+    }
+    }
 
 
 
