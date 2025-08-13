@@ -23,27 +23,36 @@ Common reasons people search for polygraph testing in Oklahoma City include:
 •	Clearing one’s name from false accusations
 ________________________________________
 How Does a Lie Detector Test Work?
+
 Our Oklahoma City polygraph exams use advanced sensors to measure three primary responses:
+
 1.	Cardiovascular Activity – Heart rate and blood pressure changes.
+   
 2.	Respiratory Patterns – Breathing changes detected via chest and abdominal movement.
+	
 3.	Electrodermal Activity – Subtle changes in skin conductivity caused by sweat gland activity.
+   
 These readings are displayed on a computer and analyzed by a licensed Oklahoma polygraph examiner to determine whether the responses are consistent with truthful or deceptive answers.
 ________________________________________
 The Step-by-Step Polygraph Process
+
 At Verity Polygraph Services, our exams follow three key phases:
+
 1. Pre-Test Interview
 We explain the process, review the questions, and make sure you understand everything. This also helps establish your baseline readings.
-2. Data Collection
+
+3. Data Collection
 You’re connected to the polygraph sensors, and we ask the prepared questions in a controlled sequence.
+
 We use a mix of:
 
-      •	Investigative/Suitability Questions – Directly tied to the matter under investigation.
+•	Investigative/Suitability Questions – Directly tied to the matter under investigation.
 
-      •	Profile/Diagnostic Questions – Designed to establish physiological contrast.
+•	Profile/Diagnostic Questions – Designed to establish physiological contrast.
 
-      •	Known Truth/Diagnostic Questions – Simple, non-threatening queries to maintain baseline data.
+•	Known Truth/Diagnostic Questions – Simple, non-threatening queries to maintain baseline data.
 
-4. Post-Test Review
+3. Post-Test Review
 The examiner reviews your charts and may discuss preliminary findings with you. A formal polygraph report can be provided if requested.
 ________________________________________
 Why Choose Verity Polygraph Services in Oklahoma City?
@@ -56,7 +65,7 @@ Why Choose Verity Polygraph Services in Oklahoma City?
 
 •	Fast scheduling – Get your results quickly and move forward.
 ________________________________________
-Book a Polygraph Test in Oklahoma City
+Book a Polygraph Test with Verity Polygraph Services in Oklahoma City and surrounding communities. 
 
 Whether you’re dealing with a sensitive personal matter, workplace dispute, or legal investigation, a polygraph exam can provide the clarity you need.
 
@@ -67,6 +76,7 @@ Whether you’re dealing with a sensitive personal matter, workplace dispute, or
 🌐 Website: https://veritypolygraph.com
 
 📧 Email: jgore@veritypolygraph.com
+
 
 
 
