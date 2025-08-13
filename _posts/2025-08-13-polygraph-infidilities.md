@@ -1,7 +1,7 @@
 ---
 layout: null
 title: "Infidelity Polygraph Exams - Restoring Trust and Clarity"
-date: 08/13/2025
+date: 2025-08-13
 ---
 Infidelity Polygraph Exams in Oklahoma City – Restoring Trust and Clarity
 When suspicions of infidelity arise, the uncertainty can be devastating. It can strain relationships, disrupt daily life, and leave both partners emotionally exhausted.
