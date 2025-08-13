@@ -38,11 +38,13 @@ The Step-by-Step Polygraph Process
 
 At Verity Polygraph Services, our exams follow three key phases:
 
-1. Pre-Test Interview
-We explain the process, review the questions, and make sure you understand everything. This also helps establish your baseline readings.
+1. Pre-Test Interview:
 
-3. Data Collection
-You’re connected to the polygraph sensors, and we ask the prepared questions in a controlled sequence.
+   We explain the process, review the questions, and make sure you understand everything. This also helps establish your baseline readings.
+
+3. Data Collection:
+
+   You’re connected to the polygraph sensors, and we ask the prepared questions in a controlled sequence.
 
 We use a mix of:
 
@@ -52,8 +54,9 @@ We use a mix of:
 
 •	Known Truth/Diagnostic Questions – Simple, non-threatening queries to maintain baseline data.
 
-3. Post-Test Review
-The examiner reviews your charts and may discuss preliminary findings with you. A formal polygraph report can be provided if requested.
+3. Post-Test Review:
+
+   The examiner reviews your charts and may discuss preliminary findings with you. A formal polygraph report can be provided if requested.
 ________________________________________
 Why Choose Verity Polygraph Services in Oklahoma City?
 
