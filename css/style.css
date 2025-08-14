@@ -82,7 +82,7 @@ main {
 /* Hero */
 .hero {
   height: calc(100vh - 120px);
-  padding-top: 120px;
+  padding-top: 100px;
   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRltrwdL-_p4Qnmk_cCDXHwSFbYxlhH2ZyZvA&s'); /* Replace with your actual path */
   background-size: cover;
   background-position: top center;
