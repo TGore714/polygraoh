@@ -1,0 +1,91 @@
+---
+layout: null
+title: Blog
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="ChatGPT Image Jul 9, 2025, 10_51_19 AM.png">
+</head>
+<body class="services-page">
+  <header>
+    <div class="container">
+     <a href="index.html"><img src="whitelogo.png" class="logo" alt="Logo"></a>
+
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+      <a href="policy.html">Policy</a>
+      <a href="blog.html">Blog</a>
+    </nav>
+    </div>
+  </header>
+
+  <main>
+  <h1>Blog</h1>
+    <a href="contact.html" class="pricing-button">Contact for Pricing</a>
+    <div class="service-box">
+      {% for post in site.posts %}
+      <article class="service-box">
+        <h2>{{ post.title }}</h2>
+        <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
+        <p>{{ post.excerpt | strip_html | truncate: 150 }}</p>
+        <a href="{{ post.url }}" class="read-more">Read More →</a>
+      </article>
+      {% endfor %}
+    </div>
+  </main>
+
+  
+    <footer class="footer-content">
+  <div class="footer-container">
+    <p>&copy; Verity Polygraph Services</p>
+    <p><a href="tel:4053149690">📞 (405) 314-9690</a> &nbsp;|&nbsp; <a href="mailto:jgore@veritypolygraph.com">✉️ jgore@veritypolygraph.com</a></p>
+    <p>Verity Polygraph | Oklahoma Polygraph Services | Serving the Oklahoma City Metro and surrounding communities. 
+https://veritypolygraph.com</p>
+  </div>
+
+  <a href="https://m.facebook.com/profile.php?id=61579267316460" target="_blank" rel="noopener noreferrer" class="facebook-link">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Facebook_Logo.png" 
+         alt="Facebook" style="width:24px; height:24px; vertical-align:middle;">
+  </a>
+  
+  </footer>
+
+  <script src="script.js"></script>
+
+  <div class="transition-overlay" id="transition-overlay">
+  <canvas id="polygraph-canvas"></canvas>
+</div>
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
